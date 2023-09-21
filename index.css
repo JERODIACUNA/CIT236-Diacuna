@@ -1,0 +1,283 @@
+.ytvid{
+
+	position: absolute;
+	top: 250% ;
+	left: 28.7%;
+	opacity:;
+	 
+text-align: left;  
+padding: 15px;  
+border: ;  
+max-width: ;  
+height: 20%;  
+width: 20%;
+}
+#bg1{
+  opacity: 0.9;
+	left: -20px	;
+position: absolute;
+top: 175%;
+background-image: linear-gradient( to right, lightgrey 40%, black );
+  width: 1200px;
+  height: 460px;
+  border: ;
+  padding: ;
+  margin: 20px;
+}
+#text1{
+  left: 8px ;
+position: absolute;
+top: 185%;
+font-size: 20px ;
+}
+#bg2{
+  opacity: 0.9;
+  left: 160px ;
+position: absolute;
+top: 302%;
+background-image: linear-gradient( to left, lightgrey 40%, black);
+  width: 1200px;
+  height: 460px;
+  border: ;
+  padding: ;
+  margin: 20px;
+}
+#text2{
+  left: 700px ;
+position: absolute;
+top: 312%;
+font-size: 20px ;
+}
+
+#leftbox{
+  opacity: 0.9;
+  left: -20px ;
+position: absolute;
+top: 265%;
+background-image: linear-gradient( to left, black, lightgrey 40%);
+  width: 400px;
+  height: 100px;
+  border: ;
+  padding: ;
+  margin: 20px;
+}
+#rightbox{
+  opacity: 0.9;
+  left: 960px ;
+position: absolute;
+top: 265%;
+background-image: linear-gradient( to left, lightgrey 40%, black);
+  width: 400px;
+  height: 100px;
+  border: ;
+  padding: ;
+  margin: 20px;
+}
+
+#fm{
+  position: absolute;
+    width: auto;  
+    text-align: left;  
+text-align: center;  
+height: 500px;  
+width: 700px;
+top: 302% ;
+  left: 0%;
+  
+}
+
+
+.logo{
+	position: absolute;
+		width: auto;  
+		text-align: left;  
+text-align: center;  
+height: 150px;  
+width: 400px;
+top: 120% ;
+	left: 35.47%;
+
+ 
+  cursor: ; 
+-webkit-transition-property: all; 
+-webkit-transition-duration: 1s; 
+-webkit-transition-timing-function: ease; 
+}  
+.logo:hover { 
+transform: scale(1.1); 
+}
+
+#bg3{
+  opacity: 0.1;
+  left: -20px ;
+position: absolute;
+top: 392.3%;
+background-image: linear-gradient( to bottom, black 10%, white  );
+  width: 1380px;
+  height: 230px;
+  border: ;
+  padding: ;
+  margin: 20px;
+}
+
+/*top: 2700px;
+  left: 620px;*/
+ 
+
+#garuda{
+  position: absolute;
+  top: 2624.8px;
+  left: -1px;
+
+  height: 225.6px;  
+width: 485px;
+
+}
+#saryn{
+	position: absolute;
+	top: 2650px;
+	left: 880px;
+
+	height: 200px;  
+width: 500px;
+}
+#hex{
+	position: absolute;
+		width: auto;  
+		text-align: left;  
+text-align: center;  
+height: 500px;  
+width: 700px;
+top: 175% ;
+	left: 49.3%;
+  
+}
+
+
+#octavia{
+	position: absolute;
+	top: 115%;
+	left: -5px;
+	height: 430px;  
+width: 490px;
+
+}
+
+
+#gauss{
+  position: absolute;
+  top: 115%;
+  left: 890px;
+  height: 430px;  
+width: 490px;
+
+}
+
+.wisp{
+position: absolute;
+	top: -11.6px;
+	left: -1px;
+	pointer-events: none; //This line is the key!
+
+}
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset  0px -100px 80px 50px;
+    top: 0;
+    left: 0;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: #000;
+  line-height: 1.6;
+  position: relative;
+  font-family: sans-serif;
+  
+}
+
+.lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 429%;
+  margin: auto;
+  width: 90vw;
+}
+
+.line {
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  background: #8b8b8c;
+  overflow: hidden;
+}
+.line::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 15vh;
+  width: 100%;
+  top: -50%;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #63b9ff 75%, #ebf7f7 100%);
+  -webkit-animation: drop 20s 10s infinite;
+          animation: drop 20s 10s infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+          animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+.line:nth-child(1) {
+  margin-left: -25%;
+}
+.line:nth-child(1)::after {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.line:nth-child(3) {
+  margin-left: 25%;
+}
+.line:nth-child(3)::after {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+
+@-webkit-keyframes drop {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+@keyframes drop {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+}
