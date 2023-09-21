@@ -66,7 +66,7 @@ background-image: linear-gradient( to left, black, lightgrey 40%);
   left: 960px ;
 position: absolute;
 top: 265%;
-background-image: linear-gradient( to left, lightgrey 40%, black);
+background-image: linear-gradient( to right, black, lightgrey 40%);
   width: 400px;
   height: 100px;
   border: ;
